@@ -36,4 +36,11 @@ This has minor chnages from his version like no tray icon and no over-riding of 
  $ sudo make install
 ~~~~
 
-For Arch Linux users check out <a href="https://aur.archlinux.org/packages/pdf2png/">pdf2png</a> in the AUR.
+## Usage
+
+It takes a list of images as input and converts them to png. It converts only the first page of the pdf since the script has been adapted to convert output of R markdown.
+
+`./pdf2png example1.png example2.png ...`
+
+
+
