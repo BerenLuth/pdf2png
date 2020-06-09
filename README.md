@@ -38,9 +38,11 @@ This has minor chnages from his version like no tray icon and no over-riding of 
 
 ## Usage
 
-It takes a list of images as input and converts them to png. It converts only the first page of the pdf since the script has been adapted to convert output of R markdown.
+It takes a list of pdf as input and converts them to png. It converts only the first page of the pdf since the script has been adapted to convert output of R markdown.
 
-`./pdf2png example1.png example2.png ...`
+`./pdf2png example1.pdf example2.pdf ...`
+
+*This script has been made specifically to convert pdf charts exported by Rmarkdown when using knit to compile a pdf.
 
 
 
